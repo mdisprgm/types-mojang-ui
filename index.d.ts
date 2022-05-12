@@ -1,4 +1,6 @@
 declare module "mojang-minecraft-ui" {
+    import * as mc from "mojang-minecraft";
+
     class FormResponse {
         readonly isCanceled: boolean;
     }
