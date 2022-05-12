@@ -1,0 +1,30 @@
+{
+  "name": "types-mj-ui",
+  "version": "1.0.0",
+  "description": "types-mj-ui",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdisprgm/types-mojang-ui.git"
+  },
+  "keywords": [
+    "mojang",
+    "minecraft",
+    "ui",
+    "bedrock"
+  ],
+  "author": "mdisprgm",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/mdisprgm/types-mojang-ui/issues"
+  },
+  "homepage": "https://github.com/mdisprgm/types-mojang-ui#readme",
+  "dependencies": {
+    "@types/mojang-minecraft": "^0.1.5"
+  }
+}
