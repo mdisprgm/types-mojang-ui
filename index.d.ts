@@ -18,7 +18,7 @@ declare module "mojang-minecraft-ui" {
     }
 
     class ActionFormResponse extends FormResponse {
-        readonly selection: boolean;
+        readonly selection: number;
     }
 
     class MessageFormData {
